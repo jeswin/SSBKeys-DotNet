@@ -1,20 +1,17 @@
 using System;
-using SSBKeys;
 using Xunit;
-using Xunit.Abstractions;
+using SSBKeys;
 
-namespace SSBKeys.Tests {
-    public class SSBKeysTest {
-        private readonly ITestOutputHelper output;
+namespace SSBKeys.Tests
+{
+  public class SSBKeysTest
+  {
 
-        public SSBKeysTest(ITestOutputHelper output) {
-            this.output = output;
-        }
-
-        [Fact]
-        public void LoadOrCreateSyncTest() {
-            var keys = SSBKeys.LoadOrCreateSync();
-            Console.WriteLine("Output was... " + keys.FileName); 
-        }
+    [Fact]
+    public void LoadOrCreateSyncTest()
+    {
+      var keys = SSBKeys.LoadOrCreateSync();
+      Console.WriteLine("Output was... " + keys.FileName);
     }
+  }
 }
