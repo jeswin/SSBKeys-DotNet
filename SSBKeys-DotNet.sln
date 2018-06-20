@@ -45,4 +45,9 @@ Global
 		{9C39EF05-3704-4504-AF24-9AD41F62B663}.Release|x86.ActiveCfg = Release|x86
 		{9C39EF05-3704-4504-AF24-9AD41F62B663}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+	EndGlobalSection
 EndGlobal
